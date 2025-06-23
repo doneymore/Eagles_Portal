@@ -52,7 +52,7 @@ namespace Eagles_Portal.Controllers
             }
         }
 
-        [HttpPost("bulk")]
+        [HttpPost("bulk")] //test project
         public async Task<ActionResult<SmsResponse>> SendBulkSms([FromBody] BulkSmsRequest request)
         {
             if (!ModelState.IsValid)
