@@ -18,4 +18,8 @@ RUN dotnet publish "Eagles_Portal.csproj" -c Release -o /app/publish /p:UseAppHo
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Make sure static files are served
+ENV ASPNETCORE_ENVIRONMENT=Production
 ENTRYPOINT ["dotnet", "Eagles_Portal.dll"]
+
