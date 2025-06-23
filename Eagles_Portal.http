@@ -1,0 +1,6 @@
+@Eagles_Portal_HostAddress = http://localhost:5185
+
+GET {{Eagles_Portal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
