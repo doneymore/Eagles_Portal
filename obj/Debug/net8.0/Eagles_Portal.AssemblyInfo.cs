@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eagles_Portal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6723fce10e5465fa219d2c0d3070283678cdfdbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9835b305b306276bf52c4b57177987258e4081e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eagles_Portal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eagles_Portal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
