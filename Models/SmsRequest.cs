@@ -15,6 +15,7 @@ namespace Eagles_Portal.Models
             public string Message { get; set; }
 
             public string SenderName { get; set; } = "YourApp";
+            public bool? optional { get; set; }
         
 
     }

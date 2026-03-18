@@ -15,6 +15,7 @@ namespace Eagles_Portal.Models
             public string Sms { get; set; }
             public string Status { get; set; }
             public decimal Balance { get; set; }
+            public bool? optional { get; set; }
         }
 
         public class TermiiBulkSmsResponse

@@ -26,5 +26,7 @@ namespace Eagles_Portal.Models
         public DateTime DateOfBirth { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public DateTime? UpdatedAt { get; set; } = DateTime.UtcNow;
     }
 }
